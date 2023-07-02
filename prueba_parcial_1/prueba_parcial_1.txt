@@ -1,0 +1,40 @@
+Algoritmo sin_titulo
+	Definir cantidadCapuccinoNormal, cantidadCapuccinoGrande, cantidadMocachinoNormal, cantidadMocachinoGrande, cantidadMedialunaNormal, cantidadMedialunaGrande, cantidadMuffinNormal, cantidadMuffinGrande Como Entero
+	Definir totalCompra Como Real
+	Escribir"........ BIENVENIDO A CAFE DEL CANAL.........................."
+	
+	Escribir ".......Ingrese la cantidad de Café Capuccino........(Normal):"
+	Leer cantidadCapuccinoNormal
+	Escribir ".......Ingrese la cantidad de Café Capuccino....... (Grande):"
+	Leer cantidadCapuccinoGrande
+	Escribir ".......Ingrese la cantidad de Café Mocachino........(Normal):"
+	Leer cantidadMocachinoNormal
+	Escribir ".......Ingrese la cantidad de Café Mocachino....... (Grande):"
+	Leer cantidadMocachinoGrande
+	Escribir ".......Ingrese la cantidad de Medialuna............ (Normal):"
+	Leer cantidadMedialunaNormal
+	Escribir ".......Ingrese la cantidad de Medialuna............ (Grande):"
+	Leer cantidadMedialunaGrande
+	Escribir ".......Ingrese la cantidad de Muffin............... (Normal):"
+	Leer cantidadMuffinNormal
+	Escribir "......Ingrese la cantidad de Muffin................ (Grande):"
+	Leer cantidadMuffinGrande
+	
+	totalCompra <- (cantidadCapuccinoNormal * 1900) + (cantidadCapuccinoGrande * 2700) + (cantidadMocachinoNormal * 2200) + (cantidadMocachinoGrande * 3100) + (cantidadMedialunaNormal * 1800) + (cantidadMedialunaGrande * 2800) + (cantidadMuffinNormal * 1300) + (cantidadMuffinGrande * 1800)
+	Escribir ".................. DETALLE DE COMPRA........................."
+	Escribir "....................CAFÉ DEL CANAL..........................."
+	Escribir "...................Cafetería No Gourmet......................"
+	Escribir ""
+	Escribir "......Total de Café Capuccino..................... (Normal): " + ConvertirATexto(cantidadCapuccinoNormal) + " unidades"
+	Escribir "......Total de Café Capuccino..................... (Grande): " + ConvertirATexto(cantidadCapuccinoGrande) + " unidades"
+	Escribir "......Total de Café Mocachino..................... (Normal): " + ConvertirATexto(cantidadMocachinoNormal) + " unidades"
+	Escribir "......Total de Café Mocachino.... ................ (Grande): " + ConvertirATexto(cantidadMocachinoGrande) + " unidades"
+	Escribir "......Total de Medialuna...........................(Normal): " + ConvertirATexto(cantidadMedialunaNormal) + " unidades"
+	Escribir "......Total de Medialuna............. ............ (Grande): " + ConvertirATexto(cantidadMedialunaGrande) + " unidades"
+	Escribir "......Total de Muffin............................. (Normal): " + ConvertirATexto(cantidadMuffinNormal)    + " unidades"
+	Escribir "......Total de Muffin............................. (Grande): " + ConvertirATexto(cantidadMuffinGrande)    + " unidades"
+	Escribir ""
+	Escribir ".......... .Total:......................................... $" + ConvertirATexto(totalCompra)
+	Escribir "..............................GRACIAS POR SU COMPRA ........."
+
+FinAlgoritmo
